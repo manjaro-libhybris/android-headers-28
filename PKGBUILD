@@ -1,5 +1,5 @@
 # Contributor: Bhushan Shah < bshah at kde dot org >
-pkgname=android-headers
+pkgname=android-headers-28
 pkgver=9.0.0
 pkgrel=1
 pkgdesc="Android headers extracted through libhybris"
@@ -7,7 +7,8 @@ arch=('any')
 url="https://github.com/gemian/android-headers"
 license=('Apache')
 makedepends=('git' 'libffi')
-source=('android-headers::git+https://github.com/gemian/android-headers.git#branch=android-9')
+provides=('android-headers')
+source=('android-headers::git+https://github.com/droidian/android-headers-28')
 md5sums=('SKIP')
 
 package() {
